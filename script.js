@@ -62,7 +62,7 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
 
     //validar el nombre y el pass
-    if(validUsername.value === validaUser && passwordInput.value === validaPassword){
+    if(usernameInput.value === validaUser && passwordInput.value === validaPassword){
         message.textContent = '¡Bienvenida!';
         message.style.color = 'pink'
 
